@@ -4,6 +4,6 @@ from django.shortcuts import render
 from django.http import HttpResponse,HttpRequest
 def index(request):
     context={
-        'name':'有朝一日权在手，杀尽天下负我'
+        'name':'有朝一日权在手，杀尽天下负我qtfj'
     }
     return render(request ,'book/index.html',context=context)
