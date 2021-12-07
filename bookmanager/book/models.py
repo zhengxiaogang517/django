@@ -7,4 +7,4 @@ class BookInfo(models.Model):
 class PeopleInfo(models.Model):
     name=models.CharField(max_length=10)
     gender=models.BooleanField()
-    book=models.ForeignKey(BookInfo,on_delete=models.CASCADE())
+    book=models.ForeignKey(BookInfo,on_delete=models.CASCADE)
